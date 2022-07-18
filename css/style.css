@@ -14,7 +14,7 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -108,4 +108,51 @@ main section button span {
     color: hsl(0, 0%, 100%);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+footer .attribution {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 96%, 37%);
+    margin-top: -1.7rem;
+    width: 100%;
+    text-align: center;
+}
+
+footer .attribution a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+    margin: auto;
+    transition: 0.5s;
+    font-size: 1.6rem;
+}
+
+footer .attribution a:hover {
+    transform: scale(1.1);
+    transform: rotate(-12deg);
+}
+
+footer .attribution .name {
+    color: #F00;
+}
+
+footer .social-icons {
+    display: flex;
+    margin-top: .7rem;
+    margin-top: 1.3rem;
+}
+
+footer .social-icons a img {
+    width: 50px;
+    margin: 15px 0;
+    transition: .5s;
+}
+
+footer .social-icons a img:hover {
+    transform: scale(1.4);
 }
