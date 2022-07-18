@@ -9,19 +9,23 @@
   <title>Frontend Mentor | Product preview card component</title>
 
   <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <main>
-    <img src="images/image-product-desktop.jpg" alt="Imagem de um produto de um perfume">
+    <img class="img-desktop" src="images/image-product-desktop.jpg" alt="Imagem de um produto de um perfume">
 
     <section>
       <div class="product">
-        <h3 class="item">Perfume</h3>
+        <p class="item">PERFUME</p>
 
         <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
 
-        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.
         </p>
 
@@ -30,14 +34,18 @@
           <div class="discount">$169.99</div>
         </div>
 
-        <button class="button">Add to cart</button>
-    </div>
+        <button>
+          <img class="cart" src="images/icon-cart.svg" alt="Imagem de um carrinho"><span>add to cart</span>
+        </button>
+      </div>
     </section>
   </main>
  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Felipe Mellão</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Felipe Mellão</a>.
+    </div>
+  </footer>
 </body>
 </html>

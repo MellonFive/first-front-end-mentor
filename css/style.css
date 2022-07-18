@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .img-desktop {
+    width: 20rem;
+    height: 26rem;
+    border-bottom-left-radius: .6rem;
+    border-top-left-radius: .6rem;
+}
+
+main section {
+    background-color: hsl(0, 0%, 100%);
+    height: 26rem;
+    width: 20rem;
+    border-bottom-right-radius: .6rem;
+    border-top-right-radius: .6rem;
+}
+
+main section .product {
+    width: 100%;
+    height: 26rem;
+    padding: 1.5rem;
+}
+
+main section .item {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.1rem;
+    letter-spacing: .2rem;
+}
+
+main section .title {
+    font-family: 'Fraunces', sans-serif;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+main section .description {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main section .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 1.7rem;
+}
+
+main section .price .normal-price {
+    width: 100%;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-family: 'Fraunces', sans-serif;
+}
+
+main section .price .discount {
+    width: 100%;
+    margin-left: 2.7rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;    
+}
+
+main section button {
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section button .cart {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 1rem;
+}
+
+main section button span {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
