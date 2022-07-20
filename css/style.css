@@ -39,7 +39,7 @@ main section {
 main section .product {
     width: 100%;
     height: 26rem;
-    padding: 1.5rem;
+    padding: 1.8rem;
 }
 
 main section .item {
@@ -96,6 +96,15 @@ main section button {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+main section button:hover {
+    background-color: hsl(58, 57%, 57%);
+    transform: transition; 
+    transform: scale(1.05);
+    
 }
 
 main section button .cart {
@@ -138,7 +147,7 @@ footer .attribution a:hover {
 }
 
 footer .attribution .name {
-    color: #F00;
+    color: hsl(58, 57%, 57%);
 }
 
 footer .social-icons {
@@ -147,8 +156,8 @@ footer .social-icons {
 }
 
 footer .social-icons a img {
-    width: 50px;
-    margin: 15px 0;
+    width: 3rem;
+    margin: .9rem 0;
     transition: .5s;
 }
 
