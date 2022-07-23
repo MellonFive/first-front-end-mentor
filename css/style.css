@@ -16,8 +16,6 @@ main {
     left: 50%;
     transform: translate(-50%, -60%);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -128,7 +126,7 @@ footer .attribution {
     font-family: 'Fraunces', sans-serif;
     color: hsl(158, 96%, 37%);
     margin-top: -1.7rem;
-    width: 100%;
+    width: 65%;
     text-align: center;
 }
 
